@@ -12,21 +12,21 @@ function OurWorks() {
       <Movie>
         <h2>The Athelete</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/work/the-athlete">
           <img src={athlete} alt="athlete" />
         </Link>
       </Movie>
       <Movie>
         <h2>The Racer</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/work/the-racer">
           <img src={theracer} alt="theracer" />
         </Link>
       </Movie>
       <Movie>
         <h2>Good Times</h2>
         <div className="line"></div>
-        <Link>
+        <Link to="/work/good-times">
           <img src={goodtimes} alt="goodtimes" />
         </Link>
       </Movie>
